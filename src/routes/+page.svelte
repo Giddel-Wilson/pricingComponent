@@ -101,7 +101,7 @@
 <img
 	src={background}
 	alt=""
-	class="fixed left-0 top-0 z-10 h-96 w-full object-fill md:h-[50vh] lg:h-[60vh]"
+	class="hidden md:block fixed left-0 top-0 z-10 h-96 w-full object-fill md:h-[50vh] lg:h-[60vh]"
 />
 
 <style>
