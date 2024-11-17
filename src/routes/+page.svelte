@@ -19,7 +19,7 @@
 	}
 </script>
 
-<main class="relative flex min-h-screen w-full flex-col items-center justify-center bg-[#F9FAFE]">
+<main class="relative flex min-h-screen w-full flex-col items-center justify-center bg-[#F1F5FE] md:bg-[#F9FAFE]">
 	<div class="z-20 flex flex-col items-center justify-center p-4 py-16 md:py-0">
 		<div class="relative mb-10 flex flex-col items-center justify-center text-center lg:mb-20">
 			<h1 class="z-20 mb-2 text-2xl font-extrabold text-[#293356] md:text-4xl">
