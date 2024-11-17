@@ -19,8 +19,8 @@
     }
   </script>
   
-  <main class="min-h-screen w-full bg-[#F9FAFE] flex flex-col items-center justify-center">
-    <div class="flex flex-col items-center justify-center p-4 relative z-20 py-16 md:py-0">
+  <main class="min-h-screen w-full bg-[#F9FAFE] flex flex-col items-center justify-center relative">
+    <div class="flex flex-col items-center justify-center p-4 z-20 py-16 md:py-0">
         <div class="text-center relative flex flex-col justify-center items-center mb-10 lg:mb-20">
           <h1 class="text-[#293356] text-2xl md:text-4xl font-extrabold mb-2 z-20">Simple, traffic-based pricing</h1>
           <p class="text-[#848693]">Sign-up for our 30-day trial. No credit card required.</p>
@@ -91,7 +91,7 @@
           </div>
         </Card>
       </div>
-      <img src={background} alt="" class="absolute top-0 left-0 w-full h-96 md:h-[50vh] lg:h-[60vh] object-fill z-10">
+      <img src={background} alt="" class="fixed top-0 left-0 w-full h-96 md:h-[50vh] lg:h-[60vh] object-fill z-10">
   </main>
   
   <style>
